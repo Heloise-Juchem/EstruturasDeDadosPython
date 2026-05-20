@@ -19,12 +19,18 @@ info = {
   }
 }
 
+print(info)
+print(info["Nomes"])
+#print(info.get("Telefones"))
+for chave, valor in info.items():
+  print(f"{chave} : {valor}")
+
 # print(info.Nomes)
 
 #Exemplos de Tupla
-notas = (9.4, 8.3, 5.2, 10.0, 4.8)
-print(f"Nota na posição 2: {notas[2]}")
-notas.insert(1, 10.0)
-notas.append(5.8)
-del(notas)
+# notas = (9.4, 8.3, 5.2, 10.0, 4.8)
+# print(f"Nota na posição 2: {notas[2]}")
+# notas.insert(1, 10.0)
+# notas.append(5.8)
+# del(notas)
 
